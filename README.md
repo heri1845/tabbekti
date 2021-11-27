@@ -129,3 +129,102 @@ token:Bearer value-of-the-user-token-header-from-login
 ```
 
 
+## 4. BELOW AVERAGE STUDENT (POST) (Teacher Only)
+
+### Endpoint URL
+```bash
+/api/v1/report/below-average-student
+```
+
+
+### Request Header
+```bash
+Content-Type:application/json  
+token:Bearer value-of-the-user-token-header-from-login
+```
+
+
+### Request Body (Teacher Role)
+```bash
+{
+    "grade":1
+}
+```
+
+### Response Body
+```bash
+{
+    "0": {
+        "student_id": 1,
+        "name": "Agus",
+        "grade": 1,
+        "performances": [
+            {
+                "subject_id": 1,
+                "subject_name": "Math",
+                "score": 76.66666666666667,
+                "avg": 79.33333333333333
+            },
+            {
+                "subject_id": 3,
+                "subject_name": "Indonesian",
+                "score": 76.5,
+                "avg": 86.3
+            }
+        ]
+    },
+    "5": {
+        "student_id": 6,
+        "name": "Asep",
+        "grade": 1,
+        "performances": [
+            {
+                "subject_id": 1,
+                "subject_name": "Math",
+                "score": 76.33333333333333,
+                "avg": 79.33333333333333
+            },
+            {
+                "subject_id": 2,
+                "subject_name": "English",
+                "score": 85,
+                "avg": 86
+            }
+        ]
+    },
+    "8": {
+        "student_id": 9,
+        "name": "Ucu",
+        "grade": 1,
+        "performances": [
+            {
+                "subject_id": 1,
+                "subject_name": "Math",
+                "score": 75.33333333333333,
+                "avg": 79.33333333333333
+            },
+            {
+                "subject_id": 3,
+                "subject_name": "Indonesian",
+                "score": 84,
+                "avg": 86.3
+            }
+        ]
+    },
+    "9": {
+        "student_id": 10,
+        "name": "Bebeb",
+        "grade": 1,
+        "performances": [
+            {
+                "subject_id": 2,
+                "subject_name": "English",
+                "score": 83,
+                "avg": 86
+            }
+        ]
+    }
+}
+```
+
+
