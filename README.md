@@ -84,4 +84,48 @@ token:Bearer value-of-the-user-token-header-from-login
 }
 ```
 
+## 3. TOP STUDENT (POST) (Teacher Only)
+
+### Endpoint URL
+```bash
+/api/v1/report/top-student
+```
+
+
+### Request Header
+```bash
+Content-Type:application/json  
+token:Bearer value-of-the-user-token-header-from-login
+```
+
+
+### Request Body (Teacher Role)
+```bash
+{
+    "grade":1,
+    "limit":3
+}
+```
+
+### Response Body
+```bash
+{
+    "0": {
+        "name": value,
+        "grade": value,
+        "point": value
+    },
+    "1": {
+        "name": value,
+        "grade": value,
+        "point": value
+    },
+    "2": {
+        "name": value,
+        "grade": value,
+        "point": value
+    }
+}
+```
+
 
