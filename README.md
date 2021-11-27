@@ -1,11 +1,11 @@
-**API DOCUMENTATION **
+**API DOCUMENTATION**
 
 **LOGIN**
 
-**Method **
+**Method**
 POST
 
-**Endpoint URL **
+**Endpoint URL**
 http://localhost:3001/api/v1/users/login
 
 **Request Headers**
