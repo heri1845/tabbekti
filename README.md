@@ -1,20 +1,30 @@
-**API DOCUMENTATION**
+# API DOCUMENTATION
 
-**1. LOGIN (POST)**
 
-**Endpoint URL:**
+## 1. LOGIN (POST)
+
+### Endpoint URL
+```bash
 /api/v1/users/login
+```
 
-**Request Headers:**
-Content-Type:application/json
 
-**Request Body**
+### Content-Type
+```bash
+application/json
+```
+
+
+### Request Body
+```bash
 {  
   "email" : value,  
   "password" : value  
 }
+```
 
-**Response Body**
+### Response Body
+```bash
 {  
   "id" : value,  
   “username”: value,   
@@ -23,3 +33,6 @@ Content-Type:application/json
   “role”:value,  
   “token”:value  
 }
+```
+
+
