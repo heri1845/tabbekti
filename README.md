@@ -1,23 +1,23 @@
-# tabbekti
-Backend API 
-LOGIN
+**API DOCUMENTATION **
 
-Method
+**LOGIN**
+
+**Method **
 POST
 
-Endpoint URL
+**Endpoint URL **
 http://localhost:3001/api/v1/users/login
 
-Request Headers
+**Request Headers**
 Content-Type:application/json
 
-Request Body
+**Request Body**
 {  
   "email" : value,  
   "password" : value  
 }
 
-Response Body
+**Response Body**
 {  
   "id" : value,  
   “username”: value,   
