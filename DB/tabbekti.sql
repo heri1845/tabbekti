@@ -96,7 +96,7 @@ CREATE TABLE `students` (
 
 LOCK TABLES `students` WRITE;
 /*!40000 ALTER TABLE `students` DISABLE KEYS */;
-INSERT INTO `students` VALUES (1,'Agus',1,NULL),(2,'Aina',3,2),(3,'Bilal',1,3),(4,'Rumi',4,NULL),(5,'Farah',4,NULL),(6,'Khadeeza',1,NULL),(7,'Dava',9,NULL),(8,'Aghna',3,NULL),(9,'Calief',1,NULL),(10,'Yasta',1,NULL);
+INSERT INTO `students` VALUES (1,'Agus',1,NULL),(2,'Acong',3,2),(3,'Budi',1,3),(4,'Jono',4,NULL),(5,'Muflo',4,NULL),(6,'Bobi',1,NULL),(7,'Roni',9,NULL),(8,'Asep',3,NULL),(9,'Cucu',1,NULL),(10,'Joni',1,NULL);
 /*!40000 ALTER TABLE `students` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -151,7 +151,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'heri1845','$2a$10$oJCkjewRG6Fp.uEmFyiYZ.Il9gP7oGqJMh5w6kreZHfFGS/H5t7oe','Heri','heri1845@gmail.com','Teacher'),(2,'aina1845','$2a$10$Rqvsi.rrFx.wfSsi4tqw1..OZVXqVLCa07yuyRKNzCrxCb9ICEMwi','Aina','aina.azzalea@gmail.com','Student'),(3,'bilal1845','$2a$10$oJCkjewRG6Fp.uEmFyiYZ.Il9gP7oGqJMh5w6kreZHfFGS/H5t7oe','Bilal','mb.hibatullah@gmail.com','Student');
+INSERT INTO `user` VALUES (1,'testing1','$2a$10$oJCkjewRG6Fp.uEmFyiYZ.Il9gP7oGqJMh5w6kreZHfFGS/H5t7oe','Heri','testing@test.test','Teacher'),(2,'testing2','$2a$10$Rqvsi.rrFx.wfSsi4tqw1..OZVXqVLCa07yuyRKNzCrxCb9ICEMwi','Acong','testing2@test.test','Student'),(3,'testing3','$2a$10$oJCkjewRG6Fp.uEmFyiYZ.Il9gP7oGqJMh5w6kreZHfFGS/H5t7oe','Budi','testing3@test.test','Student');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
