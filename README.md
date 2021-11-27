@@ -1,6 +1,6 @@
 **API DOCUMENTATION**
 
-**LOGIN (POST)**
+**1. LOGIN (POST)**
 
 **Endpoint URL**
 http://localhost:3001/api/v1/users/login
